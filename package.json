@@ -16,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AndyJChen24/shows.git"
+        "url": "git+https://github.com/AndyJChen24/quiz.git"
     },
     "devDependencies": {
         "concurrently": "^5.2.0",
@@ -28,9 +28,9 @@
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/AndyJChen24/shows/issues"
+        "url": "https://github.com/AndyJChen24/quiz/issues"
     },
-    "homepage": "https://github.com/AndyJChen24/shows#readme",
+    "homepage": "https://github.com/AndyJChen24/quiz#readme",
     "dependencies": {
         "axios": "^0.21.0",
         "cookie-session": "^1.4.0",

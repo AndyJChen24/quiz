@@ -3,10 +3,6 @@ import Api from './utils/Api';
 
 function App() {
 
-
-  
-
-
   return (
     <div className="App">
       <p>Quiz App</p>

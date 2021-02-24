@@ -2,6 +2,6 @@
 import axios from 'axios';
 export default {
     getQuestions() {
-        return axios.get(`/api/quiz/random`);
+        return axios.get(`/api/quiz/questions`);
     },
 };
