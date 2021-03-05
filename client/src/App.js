@@ -12,7 +12,7 @@ function App() {
       .then((res)=>{
         // put the data in state
         setQuestions(res.data)
-        console.log(questions)
+        // console.log(res.data)
       })
   }
   return (
