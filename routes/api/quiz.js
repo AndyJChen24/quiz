@@ -23,7 +23,7 @@ router.route('/questions')
                         answerArray.push(thisAnswer);
                     }
                 }
-                question.answerArray = answerArray;
+                response.data[question].answerArray = answerArray;
             }
 
             res.json(response.data);
