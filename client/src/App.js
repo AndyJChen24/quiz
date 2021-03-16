@@ -19,7 +19,7 @@ function App() {
         
         res.data.forEach((element)=>{
           
-          setQuestions(questions + element.question)
+          setQuestions((oldArr) => [...oldArr, element.question])
         })
         console.log(res.data)
         
